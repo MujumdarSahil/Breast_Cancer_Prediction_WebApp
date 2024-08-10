@@ -1,0 +1,46 @@
+body {
+    background-image: url('9586196.jpg');
+    background-size: cover;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+form input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #00ccff;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+    cursor: pointer;
+}
+
+.prediction h2 {
+    margin-top: 20px;
+    font-size: 20px;
+}
